@@ -1,0 +1,44 @@
+Ghazi Mouaddeb
+Tunis, Tunisia | +216 28 036 469 | ghazimdb@email.com
+GitHub: github.com/Ghaziiw | LinkedIn: linkedin.com/in/ghazi-meddeb-436154306/
+
+PROFILE
+Computer science student specializing in software engineering with strong foundations in full-stack development, backend development, databases, and software design. Experienced in building scalable web applications using Angular and Express.js, designing RESTful APIs, and working with relational databases and system architecture.
+
+TECHNICAL SKILLS
+- Programming Languages: C, C++, Java, Python, JavaScript, TypeScript, SQL, PL/SQL, T-SQL, Bash, Assembly
+- Frontend Development: Angular, HTML, CSS, Tailwind CSS
+- Backend & API Development: Node.js, Express.js, RESTful APIs
+- Databases: PostgreSQL, Relational Databases, Data Modeling, SQL Concepts
+- Cloud & Storage: Backblaze B2 (Object Storage)
+- Software Engineering: UML, OOP, System Design, Software Architecture
+
+PROJECTS
+1. ArtisanArt – E-Commerce Web Application (2025)
+   Angular, Node.js, Express.js, PostgreSQL
+   - Developed a full-stack platform helping local artisans promote and sell handmade products online.
+   - Implemented user-friendly interfaces and product management features with RESTful APIs and relational database design.
+
+2. CityConnect – Smart Community Platform (2026)
+   Angular, Node.js, Express.js, PostgreSQL, Backblaze B2
+   - Developed a platform digitizing municipal services and enabling online administrative procedures and public information access.
+   - Integrated a service marketplace for manual laborers (electricians, plumbers, builders) to connect with citizens.
+
+3. Robinson Hotel Management System (2025)
+   Java, Object-Oriented Programming
+   - Developed a desktop application for hotel reservation management, including booking, customer, and room tracking modules.
+   - Applied object-oriented design principles and modular software architecture.
+
+EDUCATION
+- Software Engineering Cycle (2025 – Present)
+  Faculte des Sciences de Tunis (FST)
+- Integrated Preparatory Cycle – MPI (2023 – 2025)
+  Faculte des Sciences de Tunis (FST)
+- Baccalaureate in Technical Sciences – Mention Tres Bien (17.14) (2023)
+  Lycee Pilote de Gafsa
+
+LANGUAGES
+- Arabic (Native)
+- French (Fluent)
+- English (Fluent)
+- Spanish (Proficient)

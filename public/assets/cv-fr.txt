@@ -1,0 +1,44 @@
+Ghazi Mouaddeb
+Tunis, Tunisie | +216 28 036 469 | ghazimdb@email.com
+GitHub: github.com/Ghaziiw | LinkedIn: linkedin.com/in/ghazi-meddeb-436154306/
+
+PROFIL
+Étudiant au cycle d'ingénieurs à la filière génie logiciel avec de solides bases en développement full-stack, bases de données et conception logicielle. Expérimenté dans la création d'applications web évolutives avec Angular et Express.js, la conception d'API RESTful, ainsi que la modélisation de bases de données relationnelles et l'architecture logicielle.
+
+COMPÉTENCES TECHNIQUES
+- Langages de programmation : C, C++, Java, Python, JavaScript, TypeScript, SQL, PL/SQL, T-SQL, Bash, Assembleur
+- Développement Frontend : Angular, HTML, CSS, Tailwind CSS
+- Backend & API : Node.js, Express.js, API RESTful, Développement Backend
+- Bases de données : PostgreSQL, Bases de données relationnelles, Modélisation des données, Concepts SQL
+- Cloud & Stockage : Backblaze B2 (Stockage objet)
+- Génie logiciel : UML, POO, Conception logicielle, Architecture logicielle
+
+PROJETS
+1. ArtisanArt – Application Web E-Commerce (2025)
+   Angular, Node.js, Express.js, PostgreSQL
+   - Développement d'une plateforme full-stack permettant aux artisans locaux de promouvoir et vendre leurs produits artisanaux.
+   - Implémentation d'interfaces utilisateur intuitives et de fonctionnalités de gestion des produits avec des API REST et une base de données relationnelle.
+
+2. CityConnect – Plateforme Communautaire Intelligente (2026)
+   Angular, Node.js, Express.js, PostgreSQL, Backblaze B2
+   - Développement d'une plateforme digitalisant les services administratifs municipaux et facilitant l'accès aux démarches en ligne.
+   - Intégration d'un espace dédié aux artisans et ouvriers (électriciens, plombiers, maçons) pour proposer leurs services aux citoyens.
+
+3. Système de Gestion Hôtelière Robinson (2025)
+   Java, Programmation Orientée Objet
+   - Développement d'une application de gestion hôtelière incluant les réservations, la gestion des clients et le suivi des chambres.
+   - Application des principes de conception modulaire et de programmation orientée objet.
+
+FORMATION
+- Cycle Ingénieur en Génie Logiciel (2025 – Présent)
+  Faculté des Sciences de Tunis (FST)
+- Cycle Préparatoire Intégré – MPI (2023 – 2025)
+  Faculté des Sciences de Tunis (FST)
+- Baccalauréat Sciences Techniques – Mention Très Bien (17.14) (2023)
+  Lycée Pilote de Gafsa
+
+LANGUAGES
+- Arabe (Langue maternelle)
+- Français (Courant)
+- Anglais (Courant)
+- Espagnol (Intermédiaire)
