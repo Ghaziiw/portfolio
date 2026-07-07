@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { playTick, playWhoosh } from '../utils/audio';
+import cvEnPdf from '../assets/cv-en.pdf';
+import cvFrPdf from '../assets/cv-fr.pdf';
 
 const EXPERIENCES = [
   {
@@ -163,7 +165,7 @@ export default function Resume() {
             </div>
           </div>
           <a
-            href="/assets/cv-en.pdf"
+            href={cvEnPdf}
             download="ghazi-mouaddeb-cv-en.pdf"
             onClick={playTick}
             className="brutalist-button"
@@ -209,7 +211,7 @@ export default function Resume() {
             </div>
           </div>
           <a
-            href="/assets/cv-fr.pdf"
+            href={cvFrPdf}
             download="ghazi-mouaddeb-cv-fr.pdf"
             onClick={playTick}
             className="brutalist-button"

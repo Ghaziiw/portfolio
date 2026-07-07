@@ -7,7 +7,7 @@ const ALL_PROJECTS = [
   {
     id: '01',
     name: 'CITYCONNECT',
-    category: 'SYSTEM',
+    category: ['FRONTEND','BACKEND'],
     tags: ['ANGULAR', 'EXPRESS.JS', 'POSTGRESQL', 'BACKBLAZE B2'],
     year: '2026',
     role: 'FULL-STACK DEVELOPER',
@@ -17,7 +17,7 @@ const ALL_PROJECTS = [
   {
     id: '02',
     name: 'ARTISANART',
-    category: 'FRONTEND',
+    category: ['FRONTEND','BACKEND'],
     tags: ['ANGULAR', 'NODE.JS', 'EXPRESS.JS', 'POSTGRESQL'],
     year: '2025',
     role: 'SOFTWARE ENGINEER',
@@ -27,7 +27,7 @@ const ALL_PROJECTS = [
   {
     id: '03',
     name: 'ROBINSON',
-    category: 'SYSTEM',
+    category: ['SYSTEM'],
     tags: ['JAVA', 'OOP', 'SWING', 'DESKTOP'],
     year: '2025',
     role: 'JAVA ARCHITECT',
@@ -64,11 +64,11 @@ export default function Works() {
   // Adjust filtering slightly to make sure categories are accurately checked
   const filteredProjects = ALL_PROJECTS.filter((proj) => {
     if (filter === 'ALL') return true;
-    if (filter === 'FRONTEND' && proj.category === 'FRONTEND') return true;
-    if (filter === 'SYSTEM' && proj.category === 'SYSTEM') return true;
+    if (filter === 'FRONTEND' && Array.isArray(proj.category) && proj.category.includes('FRONTEND')) return true;
+    if (filter === 'SYSTEM' && Array.isArray(proj.category) && proj.category.includes('SYSTEM')) return true;
     // Map backend categories
-    if (filter === 'BACKEND' && (proj.category === 'BACKEND' || proj.name === 'CITYCONNECT')) return true;
-    return proj.category === filter;
+    if (filter === 'BACKEND' && Array.isArray(proj.category) && proj.category.includes('BACKEND')) return true;
+    return false;
   });
 
   return (
@@ -120,11 +120,9 @@ export default function Works() {
         }}
       >
         {CATEGORIES.map((cat) => {
-          const count = cat === 'ALL' 
-            ? ALL_PROJECTS.length 
-            : cat === 'BACKEND' 
-              ? ALL_PROJECTS.filter(p => p.category === 'BACKEND' || p.name === 'CITYCONNECT').length 
-              : ALL_PROJECTS.filter(p => p.category === cat).length;
+          const count = cat === 'ALL'
+            ? ALL_PROJECTS.length
+            : ALL_PROJECTS.filter((p) => Array.isArray(p.category) && p.category.includes(cat)).length;
           return (
             <button
               key={cat}
@@ -182,7 +180,9 @@ export default function Works() {
                   marginBottom: '1.2rem',
                 }}
               >
-                <span>#{proj.id} // {proj.category}</span>
+                <span>
+                  #{proj.id} // {Array.isArray(proj.category) ? proj.category.join(', ') : proj.category}
+                </span>
                 <span>{proj.year}</span>
               </div>
               <h2
